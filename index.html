@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime prove con Vue 3</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- script per richiamare il codice di Vue -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+
+  <div id="app">
+    <h1 :class="titleClass" @click="changeText()">
+      <!-- interpolazione delle proprietà dell'oggetto data -->
+      {{ title }}
+    </h1>
+
+
+    <br>
+    Ciao {{ nome }}, che classe vuoi applicare al titolo?
+    <br>
+    <!-- il v-model ci terrà monitorato un input
+    e il suo valore sarà aggiornato in tempo reale
+    con la variabile nel nostro data()
+    la variabile da collegare si indica
+    all'interno del valore del parametro
+    v-model="QUI"
+   -->
+    <input type="text" v-model="inputUtente">
+    <button @click="changeTitleClass">Cambia classe</button>
+     
+    <br>
+    <p>
+      Il tuo umore è {{umore}}
+    </p>
+  </div>
+
+    <!-- questo è il nostro script effettivo che manipola ed esegue l'applicazione  -->
+  <script src="js/script.js">
+  </script>
+</body>
+</html>
