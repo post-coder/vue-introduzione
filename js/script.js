@@ -36,6 +36,7 @@ const { createApp } = Vue
         this.titleClass = this.inputUtente;
         
       },
+      // ^ ecco la virgola che li separa
 
 
       // funzione che al click del titolo ne cambia il testo
