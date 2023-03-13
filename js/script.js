@@ -42,6 +42,8 @@ const { createApp } = Vue
       // funzione che al click del titolo ne cambia il testo
       changeText() {
         
+        // siccome il titolo ha come testo la nostra proprietà "title" interpolata all'interno con le {{ }}
+        // possiamo cambiare direttamente lei e il cambiamento verrà rispecchiato in pagina
         this.title = this.inputUtente;
         
       },
