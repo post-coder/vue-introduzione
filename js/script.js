@@ -10,6 +10,7 @@ const { createApp } = Vue
         title: "Aggiornamento: Vue con i Git Branch",
         nome: "Pippo",
         alunni: ["luca", "edoardo", "niccolò"],
+         
 
         titleClass: '',
       }
