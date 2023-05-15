@@ -19,13 +19,16 @@
 
   <div id="app">
     <div class="container pt-5">
-      <h1>
+      <h1 :class="titleClass">
         {{ title }}
       </h1>
   
   
       <br>
       Ciao {{ nome }}, che classe vuoi applicare al titolo?
+      <br>
+
+      <input type="text" v-model="titleClass" placeholder="Classe" class="mt-2">
     </div>
   </div>
 

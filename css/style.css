@@ -1,13 +1,29 @@
 .red {
-  color: red;
+  background-color: red;
+  color: white;
 }
 
 .blue {
-  color: blue;
+  background-color: blue;
+  color: white;
 }
 
 .green {
-  color: green;
+  background-color: green;
+  color: white;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .underlined {
