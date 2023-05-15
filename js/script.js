@@ -10,6 +10,8 @@ const { createApp } = Vue
         title: "Primo approccio a Vue",
         nome: "Edoardo",
         alunni: ["luca", "edoardo", "niccolò"],
+
+        titleClass: '',
       }
     },
 
