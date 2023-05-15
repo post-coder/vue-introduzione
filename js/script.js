@@ -9,7 +9,7 @@ const { createApp } = Vue
         // dentro questo oggetto possiamo inserire tutte le proprietà che vogliamo
         title: "Aggiornamento: Vue con i Git Branch",
         nome: "Pippo",
-        alunni: ["luca", "edoardo", "niccolò"],
+        alunni: ["luca", "edoardo", "niccolò", "martina"],
 
         titleClass: '',
       }

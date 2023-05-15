@@ -22,7 +22,12 @@
       <h1 :class="titleClass">
         {{ title }}
       </h1>
-  
+      
+      <ul>
+        <li v-for="alunno in alunni">
+          {{alunno}}
+        </li>
+      </ul>
   
       <br>
       Ciao {{ nome }}, quali classi vuoi applicare al titolo?
