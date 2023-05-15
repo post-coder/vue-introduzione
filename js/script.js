@@ -7,7 +7,7 @@ const { createApp } = Vue
     data() {
       return {
         // dentro questo oggetto possiamo inserire tutte le proprietà che vogliamo
-        title: "Primo approccio a Vue",
+        title: "Aggiornamento: Vue con i Git Branch",
         nome: "Edoardo",
         alunni: ["luca", "edoardo", "niccolò"],
       }
