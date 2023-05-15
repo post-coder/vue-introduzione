@@ -8,7 +8,7 @@ const { createApp } = Vue
       return {
         // dentro questo oggetto possiamo inserire tutte le proprietà che vogliamo
         title: "Aggiornamento: Vue con i Git Branch",
-        nome: "Adriano",
+        nome: "pippo",
         alunni: ["luca", "edoardo", "niccolò"],
 
         titleClass: '',
